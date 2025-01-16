@@ -96,4 +96,4 @@ def extract_text_from_word(file_path):
     return text
 
 if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0", port=5001)
+    app.run(host="0.0.0.0", port=5001)
